@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Segoe-normall;
+    src: url(../font/Segoe-normall.ttf);
+}
+@font-face {
+    font-family:SegoeBold;
+    src: url(../font/SegoeBold.ttf);
+}
+:root{
+    --white-color:#fff;
+    --dark-gray:#4F5860;
+    --green-color:#059669;
+    --dark-blue:#111827;
+    --segoe-normall:Segoe-normall;
+    --segoe-bold:SegoeBold;
+}
+
+main,header,section,figure,figcaption,nav,ul,div,footer,article{
+    display: flex;
+    flex-wrap: wrap;
+}
